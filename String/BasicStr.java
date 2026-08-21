@@ -1,7 +1,10 @@
 import java.util.*;
 public class BasicStr{
     public static void main (String args[]){
-        String s = "sharad live in indore";
-        System.out.println("String is : "+ s);
+        Scanner sc = new Scanner (System.in);
+        String s = sc.nextLine();
+        System.out.println(s);
+        String t = sc.next();
+        System.out.println(t);
     }
 }
