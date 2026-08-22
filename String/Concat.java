@@ -5,9 +5,10 @@ public class Concat{
         return -1;
     }
     public static void main(String args[]){
-        String a = "srd";
-        String b = "golu";
-        a = a.concat(b);
-        System.out.println(a);
+        String s = "srd";
+        s += " live in mp";
+        s += 10;
+        s += 's';
+        System.out.println(s);
     }
 }
